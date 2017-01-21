@@ -1,3 +1,5 @@
 #!/bin/bash
 
-sbt clean editsource:edit assembly
+sbt clean editsource:edit test assembly
+
+#Test
